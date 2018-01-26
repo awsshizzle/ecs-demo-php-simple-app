@@ -7,7 +7,7 @@
         <title>Simple PHP App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <style>body {margin-top: 40px; background-color: #333;}</style>
+        <style>body {margin-top: 40px; background-color: #433;}</style>
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
@@ -17,6 +17,7 @@
             <div class="hero-unit">
                 <h1>RAI Simple PHP App</h1>
                 <h2>Congratulations</h2>
+                <h3>Reynolds American Incorporated Test Site</h3>
                 <p>Hey RAI, Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
